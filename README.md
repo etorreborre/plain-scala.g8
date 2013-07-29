@@ -1,21 +1,21 @@
-## [giter8](http://github.com/n8han/giter8) template for plain Scala sbt project
+## [giter8](http://github.com/n8han/giter8) template for simple Scala sbt project
 
 ### uses
-* Scala 2.10.1
-* Scalatest 1.9.1
-* specs2 1.14
+* Scala 2.10.2
+* specs2 2.1.1
+* scalatest 1.9.1
 * junit 4.11
 
-### predefined sbt plugins (require sbt 0.12):
-* sbteclipse 2.1.2
-* sbt-idea 1.4.0
+### predefined sbt plugins (require sbt 0.12.4):
+* sbteclipse 2.2.0
+* sbt-idea 1.5.1
 
 
 ### usage:
 Follow g8 [installation instructions](http://github.com/n8han/giter8#readme)  
 go to your favourite shell and enter  
 
-    g8 kobmic/plain-scala
+    g8 etorreborre/simple-scala
     cd [app-name]
     sbt compile
 

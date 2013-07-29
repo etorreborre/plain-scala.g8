@@ -8,9 +8,9 @@ import org.junit.runner.RunWith
 @RunWith(classOf[JUnitRunner])
 class StubTest extends Spec with ShouldMatchers {
 
-  describe("you description here") {
-    it("should do something") {
-      "Hello world" should equal("Hello world")
+  describe("A calculator") {
+    it("should add numbers") {
+      (new Calculator).add(1, 1) should equal(2)
     }
   }
 }
