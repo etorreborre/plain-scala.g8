@@ -25,3 +25,6 @@ generate project files for your favourite IDE
     sbt eclipse
     sbt gen-idea    
 
+add Apache license headers to all files (modify the license in header.txt if you want another license)
+
+    mvn license:format
