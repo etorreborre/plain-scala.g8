@@ -1,12 +1,12 @@
 package $organization$
 
-import org.scalatest.Spec
+import org.scalatest.FunSpec
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.junit.JUnitRunner
 import org.junit.runner.RunWith
 
 @RunWith(classOf[JUnitRunner])
-class StubTest extends Spec with ShouldMatchers {
+class StubTest extends FunSpec with ShouldMatchers {
 
   describe("A calculator") {
     it("should add numbers") {
