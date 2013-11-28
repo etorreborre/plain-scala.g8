@@ -15,7 +15,7 @@
 Follow g8 [installation instructions](http://github.com/n8han/giter8#readme)  
 go to your favourite shell and enter  
 
-    g8 etorreborre/simple-scala
+    g8 git://github.it.nicta.com.au/etorreborre/simple-scala.g8
     cd [app-name]
     sbt compile
 
