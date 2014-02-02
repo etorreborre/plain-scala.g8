@@ -11,7 +11,7 @@
     <artifactId></artifactId>
     <packaging>jar</packaging>
     <description>$name$</description>
-    <version>$version</version>
+    <version>$version$</version>
     <name>$name$</name>
     <organization>
         <name>$organization$</name>
